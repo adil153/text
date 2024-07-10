@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.header{
+    margin: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoimg{
+    height: 170px;
+    width: 170px;
+}
+.links{
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+    font-size: 30px;
+    transition: all 1s;
+}
+.links:hover{ 
+    color: red;
+    font-size: 37px; 
+}
+/* .links:active{
+    color: rgb(236, 236, 15)
+} */
+ #home{
+    display: grid;
+    grid-template-columns: 50% 50%;
+ }
+
+ .intro{
+    padding: 30px;
+    font-size: 20px;
+ }
+
+ .intro_head{
+    margin-top: 50px;
+    margin-bottom: 20px;
+ }
+
+ .intro_p{
+    text-align: justify;
+    margin-bottom: 30px;
+ }
+
+ .intro_link{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+ }
+
+ .intro_img{
+    position: relative;
+ }
+
+ .intro_img1{
+    width: 400px ;
+    position: absolute;
+    left: 200px;
+ }
+
+ #about{
+   margin-top: 110px;
+   display: grid;
+   grid-template-columns: 50% 50%;
+   padding: 10px;
+   column-gap: 20px;
+ }
+
+ .abt_img>img{
+   width: 100%;
+   height: 70%;
+ }
+
+ .abt_content>h4{
+   color: red;
+   margin-bottom: 40px;
+   font-size: 30px;
+ }
+
+ .abt_content>p{
+   text-align: justify;
+ }
+
+ html{
+   scroll-behavior: smooth;
+ }
+
+ ::-webkit-scrollbar{
+   visibility: hidden;
+ }
+
+ .abt_content>p ::first-line{
+   color: red;
+ }
+
+ .abt_content>p ::first-letter{
+   color: green;
+   font-size: 20px;
+ }
